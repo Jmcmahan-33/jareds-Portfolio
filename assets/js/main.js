@@ -4,6 +4,16 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+// q:using css show me how to put project list into rows of 2?
+// a: use flexbox
+// q: provide the css code to put project list into rows of 2
+// a: .project-list { display: flex; flex-wrap: wrap; }
+// q: what should I put in the html file to make the project list into rows of 2?
+// a: <ul class="project-list"> ... </ul>
+// q: this did not work, what should I do?
+
+
+
 (function($) {
 
 	var	$window = $(window),
